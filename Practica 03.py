@@ -11,3 +11,7 @@ claves = list(asado.keys())
 print (claves)
 valores = list(asado.values())
 print (valores)
+
+for puntero in asado:
+    print(puntero,end=', ')
+    print(asado[puntero])
