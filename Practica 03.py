@@ -9,4 +9,5 @@ print (asado)
 
 claves = list(asado.keys())
 print (claves)
-
+valores = list(asado.values())
+print (valores)
