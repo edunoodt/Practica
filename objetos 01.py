@@ -6,13 +6,13 @@ system('cls')
 class movil():
     def __init__(self,nombre):
         self.nombre = nombre
-        self.posicion = 0
+        self.__posicion = 0
 
     def avanza(self):
-        self.posicion += random.randint(1,4)
+        self.__posicion += random.randint(1,4)
 
     def __str__(self):
-        print (self.nombre,' - posicion: ',str(self.posicion))
+        print (self.nombre,' - posicion: ',str(self.__posicion))
 
 
 nombre1 = input ('ingrese el nombre del primer movil: ')
